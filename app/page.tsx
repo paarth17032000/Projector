@@ -29,9 +29,6 @@ export default function Home() {
           className="w-full h-[70px] bg-orange-400"
         ></motion.div>
         <motion.div
-          // initial={{ x: "-100vw" }}
-          // animate={{ x: 0 }}
-          // transition={{ duration: 1 }}
           className="w-full h-[70px] bg-white flex justify-center "
         >
           <div className="w-[70px]  relative h-[70px] rounded-full border-2 border-indigo-600">
@@ -41,8 +38,6 @@ export default function Home() {
           </div>
         </motion.div>
         <motion.div
-          // initial={{ x: "100vw" }}
-          // animate={{ x: 0 }}
           transition={{ duration: 1, delay: 1 }}
           className="w-full h-[70px] bg-green-500"
         ></motion.div>
