@@ -23,8 +23,6 @@ export default function Home() {
     <main className="flex flex-col items-center justify-center min-h-screen bg-[#90e0ef] p-24">
       <div className="flex flex-col w-[400px]">
         <motion.div
-          // initial={{ x: "-100vw" }}
-          // animate={{ x: 0 }}
           transition={{ duration: 1 }}
           className="w-full h-[70px] bg-orange-400"
         ></motion.div>
